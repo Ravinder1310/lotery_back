@@ -1,7 +1,7 @@
 import express from 'express';
 import multer from 'multer';
 import User from '../models/userModel.js';
-import { addUserController, validateUser } from '../controllers/userController.js';
+import { addUserController, validateUser } from '../controllers/UserController.js';
 
 const router = express.Router();
 

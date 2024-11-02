@@ -2,7 +2,12 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 const loterySchema = new mongoose.Schema({
-  number: { type: Number, required: true, unique: true }
+  number1: { type: Number},
+  number2: { type: Number},
+  number3: { type: Number},
+  number4: { type: Number},
+  number5: { type: Number},
+  number6: { type: Number},
 }, { timestamps: true });
 
 
